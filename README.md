@@ -34,12 +34,17 @@
     <h2 id="usage">Usage</h2>
     <pre>
         <code>
-            // Example usage
-            locomotiveAnimations();
-            navbarAnimation();
-            videoconAnimation();
-            loadingAnimation();
-            cursorAnimation();
+           <h2>Usage:</h2>
+<p>
+    Integrating TWO-GOOD-CO.-CLONE into your web project is a straightforward process. Follow the steps below to leverage its features and enhance the visual appeal of your website.
+</p>
+
+<h3>1. Installation:</h3>
+<p>
+    Include the necessary libraries and files in your project. Ensure you have GSAP and Locomotive Scroll properly linked in your HTML file. You can use CDN links or download the libraries and host them locally.
+</p>
+<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.0/dist/locomotive-scroll.min.js"></script>
         </code>
     </pre>
     <h2 id="dependencies">Dependencies</h2>
@@ -47,7 +52,40 @@
         <li>GSAP (GreenSock Animation Platform)</li>
         <li>Locomotive Scroll</li>
     </ul>
-    <h2 id="license">License</h2>
-    <p>Specify the license under which your code is distributed. For example, you might use an open-source license like MIT.</p>
-    <h2 id="acknowledgments">Acknowledgments</h2>
-    <p>Give credit to any individuals or projects that inspired or contributed to your code.</p>
+<h3>2. Initialization:</h3>
+<p>
+    Initialize the Locomotive Scroll instance and set up ScrollTrigger for smooth animations. Ensure your main container has the id "main" for proper scrollerProxy configuration.
+</p>
+<script>
+    function locomotiveAnimations() {
+        gsap.registerPlugin(ScrollTrigger);
+        const locoScroll = new LocomotiveScroll({
+            el: document.querySelector("#main"),
+            smooth: true
+        });
+        ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+        ScrollTrigger.refresh();
+    }
+    locomotiveAnimations();
+</script>
+<h3>3. Navigation Bar Animation:</h3>
+<p>
+    Implement animated navigation bar effects using GSAP. Adjust the trigger elements and animation properties as needed.
+</p>
+<!-- Add this script after initializing LocomotiveScroll -->
+<script>
+    function navbarAnimation() {
+        gsap.to("#nav-part1 svg", {
+            transform: "translateY(-100%)",
+            scrollTrigger: {
+                trigger: "#page1",
+                scroller: "#main",
+                start: "top 0%",
+                end: "top -5%",
+                scrub: true
+            }
+        });
+    }
+    navbarAnimation();
+</script>
+
