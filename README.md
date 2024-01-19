@@ -24,15 +24,14 @@
     <pre>
         <code>
             # Clone the repository
-            git clone https://github.com/bitof-KARTIK/TWO GOOD CO. CLONE.git
+            git clone https://github.com/bitof-KARTIK/TWO-GOOD-CO.-CLONE.git
             # Navigate to the project directory
-            cd TWO GOOD CO. CLONE
+            cd TWO-GOOD-CO.-CLONE
             # Install dependencies
             # Add any other installation steps as needed
         </code>
     </pre>
     <h2 id="usage">Usage</h2>
-    <p>Explain how to use your project. Include any configuration settings or specific steps users should follow to integrate your code into their projects.</p>
     <pre>
         <code>
             // Example usage
