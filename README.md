@@ -31,18 +31,6 @@
     </ul>
 
 <h2 id="installation">Installation</h2>
-    <ol>
-        <li>Clone this repository to your local machine using <code>git clone</code>.</li>
-        <li>Open the project directory.</li>
-    </ol>
-
-<h2 id="usage">Usage</h2>
-    <ol>
-        <li>Open the <code>index.html</code> file in your web browser to view the website.</li>
-        <li>Explore the responsive design and scroll animations.</li>
-    </ol>
-
-<h2 id="installation">Installation</h2>
     <pre>
         <code>
             # Clone the repository
@@ -52,6 +40,13 @@
             # Install dependencies
         </code>
     </pre>
+
+<h2 id="usage">Usage</h2>
+    <ol>
+        <li>Open the <code>index.html</code> file in your web browser to view the website.</li>
+        <li>Explore the responsive design and scroll animations.</li>
+    </ol>
+
 
  <h2 id="contributing">Contributing</h2>
     <p>Contributions are welcome! If you'd like to contribute to this project, please follow these steps:</p>
