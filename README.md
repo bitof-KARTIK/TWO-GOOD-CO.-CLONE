@@ -11,7 +11,6 @@
         <li><a href="#acknowledgments">Acknowledgments</a></li>
     </ul>
     <h2 id="introduction">Introduction</h2>
-    <p>Briefly introduce your project. Include a high-level overview and the purpose of the code.</p>
     <h2 id="features">Features</h2>
     <p>List the key features of your project. For example:</p>
     <ul>
@@ -22,7 +21,6 @@
         <li>Cursor animation.</li>
     </ul>
     <h2 id="installation">Installation</h2>
-    <p>Provide instructions on how to install and set up your project. Include any dependencies that need to be installed.</p>
     <pre>
         <code>
             # Clone the repository
@@ -46,7 +44,6 @@
         </code>
     </pre>
     <h2 id="dependencies">Dependencies</h2>
-    <p>List the external libraries or tools your project depends on.</p>
     <ul>
         <li>GSAP (GreenSock Animation Platform)</li>
         <li>Locomotive Scroll</li>
