@@ -24,9 +24,9 @@
     <pre>
         <code>
             # Clone the repository
-            git clone https://github.com/your-username/your-repository.git
+            git clone https://github.com/bitof-KARTIK/TWO GOOD CO. CLONE.git
             # Navigate to the project directory
-            cd your-repository
+            cd TWO GOOD CO. CLONE
             # Install dependencies
             # Add any other installation steps as needed
         </code>
