@@ -11,7 +11,7 @@
     </ul>
 
 <h2 id="demo">Demo</h2>
-    <p>You can try out the Twogood Clone live <a href="#">here</a>.</p>
+    <p>You can try out the Twogood Clone live <a href="https://bitof-kartik.github.io/TWO-GOOD-CO.-CLONE/">here</a>.</p>
 
 <h2 id="features">Features</h2>
     <ul>
