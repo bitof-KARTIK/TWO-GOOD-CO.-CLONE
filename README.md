@@ -1,5 +1,5 @@
-<h1>Project Name</h1>
-    <p>Description of your project.</p>
+<h1>TWO GOOD CO. CLONE</h1>
+    <p>Welcome to the documentation for Project Name, a web development project that focuses on creating captivating animations and interactive elements for modern web applications. This project utilizes GSAP (GreenSock Animation Platform) and Locomotive Scroll to provide a seamless and visually appealing user experience</p>
     <h2>Table of Contents</h2>
     <ul>
         <li><a href="#introduction">Introduction</a></li>
